@@ -13,6 +13,7 @@ body {
 	font-weight: 300;
 
 	background-color: #f8cf73;
+	text-align: center
 }
 
 
@@ -32,16 +33,16 @@ p {
   letter-spacing: -0.07em;
 }
 
-.h2 {font-size: 4.236em;
+.h2 {font-size: 4.06em;
 letter-spacing: -0.07em;
+font-family: garamond;
 }
-
 
 .h3 {font-size: 2.618em;
   letter-spacing: -0.05em;
 }
 
-.h4 {font-size: 1.618em;
+.h4 {font-size: 1.4em;
  letter-spacing: -0.02em;
  }
 
@@ -57,6 +58,7 @@ small, .font_small {font-size: 0.618em;}
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
+	text-align: left;
 	
 }
 
@@ -68,6 +70,7 @@ small, .font_small {font-size: 0.618em;}
 .titele h2 {
 	font-size: 4.236em;
 letter-spacing: -0.07em;
+font-stretch: expanded;
 
 }
 
@@ -78,25 +81,110 @@ letter-spacing: -0.07em;
 	height:21.5vw;
 	background-color: none;
 	outline: 1px solid red;
+	text-align: left;
+	max-width: 240px;
+	max-height: 240px;
+
 
 	
 }
 
 .tilesub {
 	padding:10% 10% 0% 10%;
-	background-color: pink;
+	font-size: 0.681em;
+	font-weight: 700;
+	color: red;
+	/*background-color: pink;*/
 }
 
 .tilemain {
 	position: inherit;
 	float:left;
-	padding:10% 10% 0 10%;
+	padding:10% 10% 10% 10%;
+	font-size: 1rem;
+	color: red;
+	height:40%;
+
+}
+
+
+.btnwrap {
+	position: inherit;
+	float:left;
+	height: 10%;
+	width:100%;
+	
+	margin-bottom: 5%;
+	
+	
+	display: flex;
+	justify-content:center;
+	align-items:center;
+
+
+
+
+}
+
+
+
+.tilebtn {
+	width:1.3em;
+	height:1.3em;
+	border-radius:50%;
+	border: 1px solid red;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+	
+	
+}
+
+
+
+
+
+
+.tilebtnin {
+	width:1em;
+	height:1em;
+	border-radius:50%;
+	border: 1px solid red;
+	background-color:#f8cf73; 
+ 	
+	
+}
+
+.tilebtnin:hover {
+	background-color: red;
+	
 }
 
 .contact {
 	float: right;
 	outline: 1px solid red;
 }
+
+	.contact:hover {
+		background-color: lightgreen;
+
+	}
+
+.home:hover {
+		background-color: lightgreen;
+
+	}
+
+	.info:hover {
+		background-color: lightgreen;
+
+	}
+
+.gram:hover {
+		background-color: lightgreen;
+
+	}
 
 
 
@@ -112,19 +200,13 @@ letter-spacing: -0.07em;
 
 .container {
 	width: 90vw;
-	margin-left: 1vw;
+	margin:auto;	
+	display: inline-block;
 	z-index: 0;
+	max-width: 1000px;
 	}
 
-.stickyp {
-	font-size: 8000px;
-	position:fixed;
-	z-index: 2;
-	top:60%;
-	right: 60%;
-	font-weight: 100;
-	color: red;
-}
+
 
 .contact {
 	font-size: 1.1em;
@@ -224,7 +306,7 @@ letter-spacing: -0.07em;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.col {  margin: 1% 0% 2% 0%; }
 	.span_1_8,  .span_3_8, .span_4_8, .span_6_8, .span_7_8, .span_8_8 { width: 100%; }
 
@@ -232,12 +314,31 @@ letter-spacing: -0.07em;
 	.span_3_8 { width: 36.5%; margin-left: 1%;}
 	.span_2_8 { width: 49.2%; margin-left: 0%;}
 
-	.tilecon { height: 41vw;
+	.tilecon { 
+		height: 41vw;
 		width: 41vw
 	}
 
-	.container { margin-left: 2.5vw;}
+	.container { 
+		margin-left: 5vw;
+	}
 
+	.titele {
+		text-align: center;
+	}
+	
+	.h2 {font-size: 2.818em;
+ 	letter-spacing: -0.06em;
+ 	}
+
+	.h4 {font-size: 1.3em;
+ 	letter-spacing: -0.03em;
+ 	}
+
+ 	.titele {
+
+ 	margin-top: 12px;
+ 	}
 
 	.stickyp {
 	font-size: 2000px;
@@ -248,6 +349,14 @@ letter-spacing: -0.07em;
 	color: red;
 	right:10px;
 }
+
+	.title {
+		margin-bottom:20px;
+	}
+
+	.tilemain {
+		font-size: 0.9em;
+	}
 
 	}
 
@@ -276,16 +385,34 @@ letter-spacing: -0.07em;
 	padding: 4px 4px 0px 4px;
 	background-color: #f8cf73; 
 }
-	
-	.contact:hover {
-		background-color: pink;
 
-	}
+	.gram {
+	font-size: 0.9em;
+	position:fixed;
+	z-index: 2;
+	bottom: 10px;
+	left: 10px;
+	font-weight: 100;
+	color: red;
+	outline: 1px solid red;
+	padding: 4px 4px 0px 4px;
+	background-color: #f8cf73; 
+}
 
-.home:hover {
-		background-color: pink;
+		.info {
+	font-size: 0.9em;
+	position:fixed;
+	z-index: 2;
+	bottom: 10px;
+	right: 10px;
+	font-weight: 100;
+	color: red;
+	outline: 1px solid red;
+	padding: 4px 4px 0px 4px;
+	background-color: #f8cf73; 
+}
 
-	}
+
 
 	
 
