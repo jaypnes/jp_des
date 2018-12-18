@@ -219,6 +219,7 @@ font-stretch: expanded;
 
 .tiletitle:hover {
 	background-color: yellow;
+	cursor: crosshair;
 }
 
 
