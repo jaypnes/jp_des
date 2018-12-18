@@ -37,7 +37,7 @@ a {
 
 .h2 {font-size: 4.06em;
 letter-spacing: -0.07em;
-font-family: garamond;
+font-family: garamond, times, serif;
 }
 
 .h3 {font-size: 2.618em;
@@ -311,7 +311,7 @@ font-stretch: expanded;
 /*FILTER BUTTONS --------------------------------------------------------------*/
 
 .css-filter--link {
-	font-family: garamond;
+	font-family: garamond, times, serif;
 	text-decoration: none;
 	color: red;
 	outline: 1px solid red;
