@@ -61,6 +61,7 @@ small, .font_small {font-size: 0.618em;}
 	margin-left: 0px;
 	margin-right: 0px;
 	text-align: center;
+	background-color: none;
 	
 }
 
@@ -108,8 +109,14 @@ font-stretch: expanded;
 	font-size: 1rem;
 	color: red;
 	height:40%;
+	background-color: none;
 
 }
+
+.tiletitle {
+	background-color: none;
+}
+
 
 
 .btnwrap {
@@ -162,19 +169,33 @@ font-stretch: expanded;
 	
 }
 
+
+
+.name {
+	background-color: none;
+}
+
+.name:hover{
+	background-color: red;
+
+}
+
 .tilebtnin:hover {
 	background-color: yellow;
 	cursor: crosshair;
 	transform: scale(20);
 }
 
+.tiletitle:hover {
+	background-color: yellow;
+}
 
 
 
 .corbtn:hover {
 		background-color: red;
 		cursor: crosshair;
-		transform: scale(1.1) ;
+		transform: scale(4) ;
 
 	}
 
@@ -455,6 +476,7 @@ font-stretch: expanded;
 
 	.tilemain {
 		font-size: 0.9em;
+
 	}
 
 
