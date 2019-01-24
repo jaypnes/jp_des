@@ -14,13 +14,97 @@ body {
 	font-style: normal;
 
 
-	background-color: #92e9ae;
+	background-color: #fbfbcb;
 	text-align: center
 }
 
 a {
 	color: red;
 	text-decoration: none;
+}
+
+
+
+.concontent {
+ 
+ background-color: none;
+
+ margin-top: 20%;
+ height: 90%;
+
+}
+
+.block {
+	width:49.2%;
+	margin-top: 2%;
+	margin-left:25.4%;
+	color: red;
+
+}
+
+
+.intro {
+	text-align: center;
+	background-color: none;
+	width: 100%;
+	margin-left: 0;
+	font-family: bookmania, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2em;
+	letter-spacing:-0.03em;
+	line-height: 1em; 
+
+	
+
+}
+
+.txt {
+	text-align: left;
+	background-color: none;
+	color: black;
+
+
+}
+
+
+.image {
+	text-align: left;
+	background-color: none;
+
+}
+
+.num1 {
+	width:70%;
+	margin-left: 15%;
+
+}
+	
+	
+	
+
+
+
+.responsiveimg {
+	width: 100%;
+        max-width: 1200px;
+        height: auto;
+}
+
+
+
+
+.pull {
+	text-align: left;
+	color: black;
+	width: 49.2%;
+	margin-left: 20%;
+	font-size: 2.7em;
+	letter-spacing:-0.07em;
+	line-height: 1em; 
+
+	
+
 }
 
 
@@ -414,7 +498,7 @@ font-stretch: expanded;
 	color: red;
 	outline: 1px solid red;
 	padding: 4px 4px 0px 4px; 
-	background-color: #92e9ae;
+	background-color: #fbfbcb;
 	transition: transform 0.1s ease-in 0.05s;
 
 }
