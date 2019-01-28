@@ -14,7 +14,7 @@ body {
 	font-style: normal;
 
 
-	background-color: #aca9f7;
+	background-color: red;
 	text-align: center
 }
 
@@ -22,6 +22,27 @@ a {
 	color: red;
 	text-decoration: none;
 }
+
+
+
+.concontent {
+ 
+ background-color: none;
+
+ margin-top: 20%;
+ height: 90%;
+
+}
+
+.block {
+	width:49.2%;
+	margin-top: 2%;
+	margin-left:25.4%;
+	color: red;
+
+}
+
+
 
 
 
@@ -87,66 +108,25 @@ small, .font_small {font-size: 0.618em;}
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	text-align: left;
+	text-align: center;
 	background-color: none;
 	
 }
 
 
 .title {
-	
+	margin-bottom: 20px;
 }
 
 .titele h2 {
-	font-size: 4.236em;
-letter-spacing: -0.07em;
+
 font-stretch: expanded;
+
 
 }
 
 /* Tiles */
 
-.tilecon {
-	width:21.5vw;
-	height:21.5vw;
-	background-color: none;
-	outline: 1px solid red;
-	text-align: left;
-	max-width: 240px;
-
-	max-height: 240px;
-	transition: transform 0.1s ease-in 0.05s;
-
-
-
-	
-}
-
-.tilesub {
-	padding:10% 10% 0% 10%;
-	font-size: 1em;
-	font-family: trade-gothic-next-compressed, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	color: red;
-	/*background-color: pink;*/
-}
-
-.tilemain {
-	position: inherit;
-	float:left;
-	padding:10% 10% 10% 10%;
-	font-size: 1em;
-	color: red;
-	letter-spacing: -0.02em;
-	height:40%;
-	background-color: none;
-
-}
-
-.tiletitle {
-	background-color: none;
-}
 
 
 
@@ -170,40 +150,17 @@ font-stretch: expanded;
 
 
 
-.tilebtn {
-	width:1.3em;
-	height:1.3em;
-	border-radius:50%;
-	border: 1px solid red;
-	display:flex;
-	justify-content:center;
-	align-items:center;
 
-	
-	
-}
-
-
-
-
-
-
-.tilebtnin {
-	width:1.0em;
-	height:1.0em;
-	border-radius:50%;
-	border: 1px solid red;
-	background-color:#aca9f7; 
-	display: flex;
-	transition: transform 0.1s linear 0.05s;
- 	
-	
-}
 
 
 
 .name {
 	background-color: none;
+	color:#aca9f7;
+		font-size: 7em;
+letter-spacing: -0.07em;
+margin-top: 30%;
+padding-right:10%;
 }
 
 .name:hover{
@@ -211,16 +168,6 @@ font-stretch: expanded;
 
 }
 
-.tilebtnin:hover {
-	background-color: yellow;
-	cursor: crosshair;
-	transform: scale(3);
-}
-
-.tiletitle:hover {
-	background-color: yellow;
-	cursor: crosshair;
-}
 
 
 
@@ -232,31 +179,6 @@ font-stretch: expanded;
 	}
 
 	
-.css-filter--link:hover {
-		background-color: red;
-		cursor: crosshair;
-		color:#aca9f7;
-		transform: scale(2.5);
-
-	}
-
-	[data-tag~="filter1"]:hover {
-		background-color: #92e9ae;
-		transform: scale(1.1) skewx(-7deg) skewy(-15deg) ;
-		
-	}
-
-	[data-tag~="filter2"]:hover {
-		background-color: #f1de69;
-		transform: scale(1.1) skewx(-7deg) skewy(-15deg) ;
-	}
-
-	[data-tag~="filter3"]:hover {
-		background-color: #1266e3;
-		transform: scale(1.1) skewx(-7deg) skewy(-15deg) ;
-	}
-		
-		
 
 
 /* TYPOGRAPHY */
@@ -353,23 +275,7 @@ font-stretch: expanded;
 
 /*FILTER BUTTONS --------------------------------------------------------------*/
 
-.css-filter--link {
-	font-family: bookmania, serif;
-	font-weight: 400;
-	font-style: normal;
 
-	text-decoration: none;
-	color: red;
-	outline: 1px solid red;
-	width: 7em;
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	font-size: 0.7em;
-	padding-top: 2px;
-	transition: transform 0.1s linear 0.05s;
-
-
-}
 
 
 .navbtn {
@@ -380,28 +286,6 @@ font-stretch: expanded;
 	
 }
 
-.css-filter--target:not(:target) ~ .css-filter--item {
-  display:block;
-
-}
-.css-filter--target:target ~ .css-filter--item {
-  display:none;
-
-}
-[id="tag:filter1"]:target ~ [data-tag~="filter1"] {
-  display:block;
-  background-color: none;
-}
-
-[id="tag:filter2"]:target ~ [data-tag~="filter2"] {
-  display:block;
-  background-color: none;
-}
-
-[id="tag:filter3"]:target ~ [data-tag~="filter3"] {
-  display:block;
-  background-color: none;
-}
 
 .corbtn {
 	font-family: bookmania, serif;
@@ -451,8 +335,6 @@ font-stretch: expanded;
 
 
 
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 580px) {
 	.col {  margin: 1% 2% 1% 0%; }
 	.span_1_8,  .span_3_8, .span_4_8, .span_6_8, .span_7_8 { width: 100%; }
@@ -467,6 +349,19 @@ font-stretch: expanded;
 		width: 41vw
 
 	}
+
+.block {
+	width:100%;
+	margin-top: 5%;
+	margin-left:0%;
+	color: blue;
+
+}
+
+.pull {
+	width:100%;
+	font-size: 2em;
+}
 
 
 
@@ -545,6 +440,7 @@ font-stretch: expanded;
 
 
 }
+
 
 /*
 
