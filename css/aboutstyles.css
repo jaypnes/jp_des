@@ -1,0 +1,576 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*TYPOGRAPHY */
+
+html {
+	font-size: 1em;
+
+}
+
+body {
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+
+	background-color: red;
+	text-align: center
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+
+
+.concontent {
+ 
+ background-color: none;
+
+ margin-top: 0%;
+ height: 90%;
+
+}
+
+.block {
+	width:49.2%;
+	margin-top: 2%;
+	margin-left:25.4%;
+	color: red;
+
+}
+
+
+.intro {
+	text-align: left;
+	background-color: none;
+	width: 100%;
+	margin-left: 0;
+	font-family: bookmania, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2em;
+	letter-spacing:-0.03em;
+	line-height: 1em; 
+	color:#aca9f7;
+
+	
+
+}
+
+.txt {
+	text-align: left;
+	background-color: none;
+	color: black;
+	margin-left: 50%;
+	letter-spacing: -0.05em;
+
+
+}
+
+
+.image {
+	text-align: left;
+	background-color: none;
+
+}
+
+.num1 {
+	width:15%;
+	margin-left: 0%;
+	margin-top: 10%;
+	margin-bottom: 0%;
+
+}
+	
+	
+	
+
+
+
+.responsiveimg {
+	width: 100%;
+        max-width: 1200px;
+        height: auto;
+}
+
+
+
+
+.pull {
+	text-align: left;
+	color: black;
+	width: 60%;
+	margin-left: 0%;
+	font-size: 4em;
+	letter-spacing:-0.07em;
+	line-height: 1em; 
+	margin-top: 15%;
+	margin-bottom: 15%;
+
+	
+
+}
+
+
+.caption {
+	text-align: center;
+	background-color: none;
+	font-family: bookmania, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	letter-spacing:-0.07em;
+	line-height: 0.7em; 
+	margin-top: 10px;
+
+	
+
+}
+
+
+.h1, .h2, .h3, .h4 {
+  font-weight: inherit;
+  
+  color:#aca9f7;
+}
+
+.h1 {
+  
+  font-size: 6.854em;
+  letter-spacing: -0.07em;
+}
+
+.h2 {font-size: 4.06em;
+letter-spacing: -0.07em;
+
+/*font-family:  Bookmania Bold Italic
+font-family: bookmania, serif;
+font-weight: 700;
+font-style: italic; */
+
+/*Bookmania Bold
+
+font-family: bookmania, serif;
+font-weight: 700;
+font-style: normal;
+
+/*Bookmania Regular Italic
+
+font-family: bookmania, serif;
+font-weight: 400;
+font-style: italic; */
+
+
+
+font-family: bookmania, serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+
+
+.h3 {font-size: 2.618em;
+  letter-spacing: -0.05em;
+}
+
+.h4 {font-size: 1.4em;
+ letter-spacing: -0.04em;
+ }
+
+small, .font_small {font-size: 0.618em;}
+
+#japtitle {
+	font-size: 16px;
+	color: #d18219;
+}
+
+.titele {
+	margin-top: 16px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+	background-color: none;
+	color: #aca9f7;
+	
+}
+
+
+.title {
+	margin-bottom: 20px;
+}
+
+.titele h2 {
+	font-size: 4.236em;
+letter-spacing: -0.07em;
+font-stretch: expanded;
+
+
+}
+
+/* Tiles */
+
+
+
+
+.btnwrap {
+	position: inherit;
+	float:left;
+	height: 10%;
+	width:100%;
+	
+	margin-bottom: 5%;
+	
+	
+	display: flex;
+	justify-content:center;
+	align-items:center;
+
+
+
+
+}
+
+
+
+
+
+
+
+.name {
+	background-color: none;
+}
+
+.name:hover{
+	background-color: red;
+
+}
+
+
+
+
+.corbtn:hover {
+		background-color: red;
+		cursor: crosshair;
+		transform: scale(4) ;
+
+	}
+
+	
+
+
+/* TYPOGRAPHY */
+
+.col.header {
+	text-align: left;
+	line-height: 0.9;
+	margin-top: 5vw;
+
+}
+
+.container {
+	width: 90vw;
+	margin:auto;	
+	display: inline-block;
+	z-index: 0;
+	max-width: 1000px;
+	}
+
+
+
+
+
+
+
+
+/*  SECTIONS ------------------------------------------------- */
+.section {
+	clear: both;
+	padding: 0px;
+	
+}
+
+.head {
+	clear: both;
+	padding: 0px;
+	margin-bottom: 
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 1% 0% 0%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF EIGHT  */
+.span_8_8 {
+	width: 100%;
+	
+}
+
+.span_7_8 {
+  	width: 87.3%;
+  
+}
+
+.span_6_8 {
+  	width: 74.6%;
+  
+}
+
+.span_5_8 {
+  	width: 61.9%;
+  
+}
+
+.span_4_8 {
+  	width: 49.2%;
+  
+}
+
+.span_3_8 {
+  	width: 36.5%;
+ 
+}
+
+.span_2_8 {
+  	width: 23.8%;
+
+}
+
+.span_1_8 {
+  	width: 11.1%;
+}
+
+
+/*FILTER BUTTONS --------------------------------------------------------------*/
+
+
+
+
+.navbtn {
+	
+	display: flex;
+	justify-content:center;
+	margin: 1% 1.8% 0% 0%;
+	
+}
+
+
+.corbtn {
+	font-family: bookmania, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 0.9em;
+	position:fixed;
+	z-index: 2;
+	font-weight: 300;
+	color: red;
+	outline: 1px solid red;
+	padding: 4px 4px 0px 4px; 
+	background-color: #aca9f7;
+	transition: transform 0.1s ease-in 0.05s;
+
+}
+
+
+	.contact {
+
+	top: 10px;
+	right: 10px;
+
+}
+
+	.home {
+
+	top: 10px;
+	left: 10px;
+
+}
+
+	.gram {
+
+	bottom: 10px;
+	left: 10px;
+
+}
+
+		.info {
+
+	bottom: 10px;
+	right: 10px;
+
+}
+
+
+
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 580px) {
+	.col {  margin: 1% 2% 1% 0%; }
+	.span_1_8,  .span_3_8, .span_4_8, .span_6_8, .span_7_8 { width: 100%; }
+
+	.span_8_8 {width:95%;}
+	.span_5_8 { width: 61.9%; }
+	.span_3_8 { width: 36.5%; margin-left: 1%;}
+	.span_2_8 { width: 49.2%; margin-left: 0%;}
+
+	.tilecon { 
+		height: 41vw;
+		width: 41vw
+
+	}
+
+
+
+.navbtn {
+	
+
+	margin: 10% 0.8% 0% -1%;
+	
+
+}
+
+.namae {
+	margin-top: 30px;
+}
+
+.block {
+	width:100%;
+	margin-top: 5%;
+	margin-left:0%;
+	
+
+}
+
+.pull {
+	width:80%;
+	font-size: 2em;
+}
+
+
+	
+	
+	.h2 {font-size: 2.818em;
+ 	letter-spacing: -0.06em;
+ 	}
+
+	.h4 {font-size: 1.3em;
+ 	letter-spacing: -0.03em;
+ 	}
+
+ 
+
+	
+
+
+
+	.tilemain {
+		font-size: 0.9em;
+
+	}
+
+
+
+
+
+/*
+
+
+ Trade Gothic Next LT Pro Bold
+
+font-family: trade-gothic-next, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+Trade Gothic Next LT Pro Bold Italic
+
+font-family: trade-gothic-next, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+Trade Gothic Next LT Pro Italic
+
+font-family: trade-gothic-next, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+Trade Gothic Next LT Pro Regular
+
+font-family: trade-gothic-next, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+Trade Gothic Next LT Pro Bold Compressed
+
+font-family: trade-gothic-next-compressed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+Trade Gothic Next LT Pro Compressed
+
+font-family: trade-gothic-next-compressed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+Trade Gothic Next LT Pro Bold Condensed
+
+font-family: trade-gothic-next-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+Trade Gothic Next LT Pro Bold Condensed Italic
+
+font-family: trade-gothic-next-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+Trade Gothic Next LT Pro Condensed
+
+font-family: trade-gothic-next-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+Trade Gothic Next LT Pro Condensed Italic
+
+font-family: trade-gothic-next-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+
+ */
+
