@@ -14,12 +14,12 @@ body {
 	font-style: normal;
 
 
-	background-color: #aca9f7;
+	background-color: white;
 	text-align: center
 }
 
 a {
-	color: red;
+	color: black;
 	text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ a {
 .h1, .h2, .h3, .h4 {
   font-weight: inherit;
   
-  color:red;
+  color:black;
 }
 
 .h1 {
@@ -37,7 +37,7 @@ a {
   letter-spacing: -0.07em;
 }
 
-.h2 {font-size: 1.5em;
+.h2 {font-size: 4em;
 letter-spacing: -0.03em;
 
 /*font-family:  Bookmania Bold Italic
@@ -112,7 +112,7 @@ font-stretch: expanded;
 	width:21.5vw;
 	height:21.5vw;
 	background-color: none;
-	outline: 1px solid red;
+	outline: 1px solid black;
 	text-align: left;
 	max-width: 240px;
 
@@ -130,7 +130,7 @@ font-stretch: expanded;
 	font-family: trade-gothic-next-compressed, sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	color: red;
+	color: black;
 	/*background-color: pink;*/
 }
 
@@ -139,7 +139,7 @@ font-stretch: expanded;
 	float:left;
 	padding:10% 10% 10% 10%;
 	font-size: 1em;
-	color: red;
+	color: black;
 	letter-spacing: -0.02em;
 	height:40%;
 	background-color: none;
@@ -176,7 +176,7 @@ font-stretch: expanded;
 	width:1.3em;
 	height:1.3em;
 	border-radius:50%;
-	border: 1px solid red;
+	border: 1px solid black;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -194,8 +194,8 @@ font-stretch: expanded;
 	width:1.0em;
 	height:1.0em;
 	border-radius:50%;
-	border: 1px solid red;
-	background-color:#aca9f7; 
+	border: 1px solid black;
+	background-color:white; 
 	display: flex;
 	transition: transform 0.1s linear 0.05s;
  	
@@ -206,6 +206,8 @@ font-stretch: expanded;
 
 .name {
 	background-color: none;
+
+
 }
 
 .name:hover{
@@ -227,7 +229,7 @@ font-stretch: expanded;
 
 
 .corbtn:hover {
-		background-color: red;
+		background-color: black;
 		cursor: crosshair;
 		transform: scale(4) ;
 
@@ -235,21 +237,21 @@ font-stretch: expanded;
 
 	
 .css-filter--link:hover {
-		background-color: red;
+		background-color: black;
 		cursor: crosshair;
-		color:#aca9f7;
+		color: white;
 		transform: scale(2.5);
 
 	}
 
 	[data-tag~="filter1"]:hover {
-		background-color: #92e9ae;
+		background-color: red;
 		transform: scale(1.1) skewx(-7deg) skewy(-15deg) ;
 		
 	}
 
 	[data-tag~="filter2"]:hover {
-		background-color: #f1de69;
+		background-color: orange;
 		transform: scale(1.1) skewx(-7deg) skewy(-15deg) ;
 	}
 
@@ -362,8 +364,8 @@ font-stretch: expanded;
 	font-style: normal;
 
 	text-decoration: none;
-	color: red;
-	outline: 1px solid red;
+	color: black;
+	outline: 1px solid black;
 	width: 7em;
 	margin-left: 0.5%;
 	margin-right: 0.5%;
@@ -414,10 +416,10 @@ font-stretch: expanded;
 	position:fixed;
 	z-index: 2;
 	font-weight: 300;
-	color: red;
-	outline: 1px solid red;
+	color: black;
+	outline: 1px solid black;
 	padding: 4px 4px 0px 4px; 
-	background-color: #aca9f7;
+	background-color: white;
 	transition: transform 0.1s ease-in 0.05s;
 
 }
@@ -518,7 +520,7 @@ font-stretch: expanded;
 
 	
 	
-	.h2 {font-size: 1.5em;
+	.h2 {font-size: 3em;
  	letter-spacing: -0.02em;
  	}
 

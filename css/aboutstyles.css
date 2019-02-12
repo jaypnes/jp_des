@@ -54,7 +54,7 @@ a {
 	font-size: 2em;
 	letter-spacing:-0.03em;
 	line-height: 1em; 
-	color:#aca9f7;
+	color:white;
 
 	
 
@@ -380,7 +380,7 @@ font-stretch: expanded;
 	color: red;
 	outline: 1px solid red;
 	padding: 4px 4px 0px 4px; 
-	background-color: #aca9f7;
+	background-color: white;
 	transition: transform 0.1s ease-in 0.05s;
 
 }

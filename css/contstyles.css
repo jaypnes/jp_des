@@ -14,7 +14,7 @@ body {
 	font-style: normal;
 
 
-	background-color: red;
+	background-color: black;
 	text-align: center
 }
 
@@ -156,7 +156,7 @@ font-stretch: expanded;
 
 .name {
 	background-color: none;
-	color:#aca9f7;
+	color:white;
 		font-size: 7em;
 letter-spacing: -0.07em;
 margin-top: 30%;
@@ -298,7 +298,7 @@ padding-right:10%;
 	color: red;
 	outline: 1px solid red;
 	padding: 4px 4px 0px 4px; 
-	background-color: #aca9f7;
+	background-color:  black;
 	transition: transform 0.1s ease-in 0.05s;
 
 }

@@ -14,12 +14,12 @@ body {
 	font-style: normal;
 
 
-	background-color: #aca9f7;
+	background-color: white;
 	text-align: center
 }
 
 a {
-	color: red;
+	color: black;
 	text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ a {
 	color: black;
 	width: 60%;
 	margin-left: 0%;
-	font-size: 4em;
+	font-size: 3em;
 	letter-spacing:-0.07em;
 	line-height: 1em; 
 	margin-top: 15%;
@@ -251,7 +251,7 @@ font-stretch: expanded;
 
 
 .corbtn:hover {
-		background-color: red;
+		background-color: black;
 		cursor: crosshair;
 		transform: scale(4) ;
 
@@ -375,9 +375,9 @@ font-stretch: expanded;
 	z-index: 2;
 	font-weight: 300;
 	color: red;
-	outline: 1px solid red;
+	outline: 1px solid black;
 	padding: 4px 4px 0px 4px; 
-	background-color: #aca9f7;
+	background-color: white;
 	transition: transform 0.1s ease-in 0.05s;
 
 }
