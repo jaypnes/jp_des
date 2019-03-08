@@ -380,8 +380,8 @@ font-stretch: expanded;
 .navbtn {
 	
 	display: flex;
-	justify-content:center;
-	margin: 1% 1.8% 0% 0%;
+	justify-content:left;
+	margin: 1% 1.8% 0% -0.5%;
 	
 }
 

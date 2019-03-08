@@ -35,7 +35,7 @@ a {
 }
 
 .block {
-	width:49.2%;
+	width:33%;
 	margin-top: 2%;
 	margin-left:25.4%;
 	color: red;
@@ -63,8 +63,10 @@ a {
 	text-align: left;
 	background-color: none;
 	color: black;
-	margin-left: 50%;
+	margin-left: 71%;
 	letter-spacing: -0.05em;
+	font-size: 0.9em;
+	font-weight: 600;
 
 
 }
@@ -93,6 +95,7 @@ a {
 	width: 100%;
         max-width: 1200px;
         height: auto;
+        outline:1px solid black;
 }
 
 
@@ -122,7 +125,7 @@ a {
 	font-style: normal;
 	font-size: 1em;
 	letter-spacing:-0.07em;
-	line-height: 0.7em; 
+	line-height: 1em; 
 	margin-top: 10px;
 
 	
