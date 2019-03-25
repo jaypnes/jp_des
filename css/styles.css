@@ -37,8 +37,8 @@ a {
   letter-spacing: -0.07em;
 }
 
-.h2 {font-size: 4em;
-letter-spacing: -0.03em;
+.h2 {font-size: 1.2em;
+letter-spacing: -0.05em;
 
 /*font-family:  Bookmania Bold Italic
 font-family: bookmania, serif;
@@ -60,7 +60,7 @@ font-style: italic; */
 
 
 
-	font-family: trade-gothic-next-compressed, sans-serif;
+	font-family: trade-gothic-next, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 
@@ -73,7 +73,7 @@ font-style: italic; */
 
 }
 
-.h4 {font-size: 1.2em;
+.h4 {font-size: 1.0em;
  letter-spacing: -0.04em;
  font-weight: 600;
  }
@@ -128,8 +128,8 @@ font-stretch: expanded;
 
 .tilesub {
 	padding:10% 10% 0% 10%;
-	font-size: 1em;
-	font-family: trade-gothic-next-compressed, sans-serif;
+	font-size: 0.6em;
+	font-family: trade-gothic-next, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	color: black;
@@ -270,7 +270,7 @@ font-stretch: expanded;
 .col.header {
 	text-align: left;
 	line-height: 0.9;
-	margin-top: 5vw;
+	margin-top: 3vw;
 
 }
 
@@ -411,16 +411,17 @@ font-stretch: expanded;
 }
 
 .corbtn {
-	font-family: bookmania, serif;
-	font-weight: 400;
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 600;
 	font-style: normal;
-	font-size: 0.9em;
+	font-size: 0.8em;
+	letter-spacing: -0.05em;
 	position:fixed;
 	z-index: 2;
-	font-weight: 300;
+	font-weight: 600;
 	color: black;
-	outline: 1px solid black;
-	padding: 4px 4px 0px 4px; 
+	outline: 0px solid black;
+	padding: 4px 4px 4px 4px; 
 	background-color: white;
 	transition: transform 0.1s ease-in 0.05s;
 
@@ -522,8 +523,8 @@ font-stretch: expanded;
 
 	
 	
-	.h2 {font-size: 3em;
- 	letter-spacing: -0.02em;
+	.h2 {font-size: 1.2em;
+ 	letter-spacing: -0.05em;
  	}
 
 	.h4 {font-size: 1.0em;
