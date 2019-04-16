@@ -539,7 +539,7 @@ a {
 
 
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 450px) {
 
 		.intro-text {
 	grid-column: 2 / span 10;
