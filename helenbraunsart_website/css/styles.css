@@ -527,6 +527,7 @@ a {
 
 .contact-text {
 	font-size: 1.2em;
+	grid-column: 2 / span 10;
 
 	height:200px;
 }
