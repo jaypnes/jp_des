@@ -51,7 +51,7 @@ a {
 	font-family: bookmania, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 2em;
+	font-size: 1.5em;
 	letter-spacing:-0.03em;
 	line-height: 1em; 
 
@@ -63,7 +63,7 @@ a {
 	text-align: left;
 	background-color: none;
 	color: black;
-	margin-left: 71%;
+	margin-left: 40%;
 	letter-spacing: -0.05em;
 	font-size: 0.9em;
 	font-weight: 600;
@@ -79,7 +79,7 @@ a {
 }
 
 .num1 {
-	width:70%;
+	width:40%;
 	margin-left: 0%;
 	margin-top: 10%;
 	margin-bottom: 10%;
@@ -105,8 +105,8 @@ a {
 	text-align: left;
 	color: black;
 	width: 60%;
-	margin-left: 0%;
-	font-size: 3em;
+	margin-left: 10%;
+	font-size: 2em;
 	letter-spacing:-0.07em;
 	line-height: 1em; 
 	margin-top: 15%;
@@ -145,7 +145,7 @@ a {
   letter-spacing: -0.07em;
 }
 
-.h2 {font-size: 4.06em;
+.h2 {font-size: 3em;
 letter-spacing: -0.07em;
 
 /*font-family:  Bookmania Bold Italic
@@ -464,15 +464,15 @@ font-stretch: expanded;
 
 	
 	
-	.h2 {font-size: 2.818em;
+	.h2 {font-size: 1.8em;
  	letter-spacing: -0.06em;
  	}
 
-	.h4 {font-size: 1.3em;
+	.h4 {font-size: 1.1em;
  	letter-spacing: -0.03em;
  	}
 
- .intro {font-size: 1.7em;
+ .intro {font-size: 1.2em;
  	
  	}
 
