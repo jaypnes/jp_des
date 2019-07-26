@@ -29,7 +29,7 @@ a {
  
  background-color: none;
 
- margin-top: 20%;
+ margin-top: 5%;
  height: 90%;
 
 }
@@ -44,20 +44,23 @@ a {
 
 
 .intro {
-	text-align: center;
+	text-align: left;
 	background-color: none;
-	width: 100%;
+	width: 50%;
 	margin-left: 0;
 	font-family: bookmania, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 1.0em;
 	letter-spacing:-0.03em;
 	line-height: 1em; 
+	border:1px solid;
 
 	
 
 }
+
+
 
 .txt {
 	text-align: left;
@@ -66,7 +69,7 @@ a {
 	margin-left: 40%;
 	letter-spacing: -0.05em;
 	font-size: 0.9em;
-	font-weight: 600;
+	font-weight: 400;
 
 
 }
@@ -123,7 +126,7 @@ a {
 	font-family: bookmania, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1em;
+	font-size: 0.8em;
 	letter-spacing:-0.07em;
 	line-height: 1em; 
 	margin-top: 10px;
@@ -145,7 +148,7 @@ a {
   letter-spacing: -0.07em;
 }
 
-.h2 {font-size: 3em;
+.h2 {font-size: 2em;
 letter-spacing: -0.07em;
 
 /*font-family:  Bookmania Bold Italic
@@ -175,11 +178,11 @@ font-style: normal;
 
 
 
-.h3 {font-size: 2.618em;
+.h3 {font-size: 2em;
   letter-spacing: -0.05em;
 }
 
-.h4 {font-size: 1.4em;
+.h4 {font-size: 1.0em;
  letter-spacing: -0.04em;
  }
 
@@ -195,7 +198,7 @@ small, .font_small {font-size: 0.618em;}
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	text-align: center;
+	text-align: left;
 	background-color: none;
 	
 }
@@ -370,16 +373,17 @@ font-stretch: expanded;
 
 
 .corbtn {
-	font-family: bookmania, serif;
-	font-weight: 400;
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 600;
 	font-style: normal;
-	font-size: 0.9em;
+	font-size: 0.8em;
+	letter-spacing: -0.05em;
 	position:fixed;
 	z-index: 2;
-	font-weight: 300;
-	color: red;
-	outline: 1px solid black;
-	padding: 4px 4px 0px 4px; 
+	font-weight: 600;
+	color: black;
+	outline: 0px solid black;
+	padding: 4px 4px 4px 4px; 
 	background-color: white;
 	transition: transform 0.1s ease-in 0.05s;
 
@@ -458,7 +462,7 @@ font-stretch: expanded;
 
 .pull {
 	width:80%;
-	font-size: 2em;
+	font-size: 1.7em;
 }
 
 
@@ -468,11 +472,11 @@ font-stretch: expanded;
  	letter-spacing: -0.06em;
  	}
 
-	.h4 {font-size: 1.1em;
+	.h4 {font-size: 1.0em;
  	letter-spacing: -0.03em;
  	}
 
- .intro {font-size: 1.2em;
+ .intro {font-size: 1.0em;
  	
  	}
 
