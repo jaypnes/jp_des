@@ -254,12 +254,12 @@ font-stretch: expanded;
 
 	[data-tag~="filter2"]:hover {
 		background-color: orange;
-		transform: scale(1.1) skewx(-7deg) skewy(-15deg) ;
+		transform: scale(1.1) skewx(15deg) skewy(-5deg) ;
 	}
 
 	[data-tag~="filter3"]:hover {
 		background-color: #1266e3;
-		transform: scale(1.1) skewx(-7deg) skewy(-15deg) ;
+		transform: scale(1.1) skewx(-14deg) skewy(-6deg) ;
 	}
 		
 		
@@ -476,6 +476,10 @@ font-stretch: expanded;
 
 }
 
+.text-link {
+	color: red;
+	text-decoration: underline;
+}
 
 	.contact {
 
